@@ -31,6 +31,6 @@ document.onkeyup = function (event) {
     winsCounter.textContent = wins;
     lossesCounter.textContent = losses;
     guessesLeft.textContent = guesses;
-    guessed.textContent = userGuess;
+    guessed.textContent += userGuess;
 
 };
